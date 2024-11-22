@@ -1,4 +1,4 @@
-name: Build,Analyze,Scans
+name: build-analyze-scan
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  build:
+  build-analyze-scan:
     name: Build
     runs-on: ubuntu-latest
     steps:
